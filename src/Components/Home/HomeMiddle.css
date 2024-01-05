@@ -1,0 +1,111 @@
+.hm-container {
+    border-radius: 10px;
+    width: 572px;
+}
+
+.post-input {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.8rem 1.1rem 0.3rem 1.1rem;
+}
+
+.post-input img{
+    width: 48px;
+    border-radius: 25px;
+}
+
+.post-input img {
+    cursor: pointer;
+}
+
+.post-input div {
+    color: grey;
+    width: 85%;
+    border: 1.5px solid rgba(0, 0, 0, 0.3);
+    padding: 0.7rem 1rem;   
+    border-radius: 25px;
+    font-size: 1.1rem;
+}
+
+.post-input div:hover {
+    background-color: #e3e2e2;
+    cursor: pointer;
+}
+
+.post-type {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.2rem;
+}
+
+.post-type-button {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 0.7rem 0.5rem;
+    color: grey;
+}
+
+.post-type-button:hover {
+    cursor: pointer;
+    background-color: #e3e2e2;
+    border-radius: 5px;
+}
+
+.divider {
+    padding: 0.4rem 0;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+
+.d-left {
+    width: 82%;
+}
+
+.d-right {
+    display: flex;
+    margin-left: 0.6rem;
+    font-size: 0.87rem;
+}
+
+.sort-by {
+    color: grey;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    margin-left: 0.3rem;
+}
+
+.divider:hover {
+    cursor: pointer;
+}
+
+.spinner {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 0 0.8rem 0;
+}
+
+@media screen and (max-width: 900px) {
+    .hm-container{
+        width: 500px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .hm-container{
+        width: 400px;
+    }
+  }
+
+@media screen and (max-width: 680px) {
+    .hm-container {
+        margin: auto;
+        width: 85%;
+    }
+  }
+

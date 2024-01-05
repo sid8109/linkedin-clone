@@ -1,0 +1,15 @@
+.i-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0, 0.6);
+}
+
+.i-container p {
+    font-size: 0.8rem;
+}
+
+.i-container:hover, :active {
+    cursor: pointer;
+    color: rgb(0, 0, 0, 0.9);
+}

@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    max-width: 1128px;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+@media screen and (max-width: 1175px) {
+    .home-container {
+        max-width: 900px;
+        margin: auto;
+    }
+  }
+
+@media screen and (max-width: 680px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        margin: auto;
+        margin-top: 5rem;
+    }
+  }

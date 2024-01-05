@@ -1,0 +1,96 @@
+.a-wrapper {
+    margin: 0 0 0.7rem 0;
+}
+
+.a-container {
+    padding: 0.8rem 1.1rem 0.3rem 1.1rem;
+}
+
+.article-info {
+    display: flex;
+    gap: 0.6rem;
+    padding-bottom: 0.4rem;
+}
+
+.ai-left img {
+    width: 48px;
+    border-radius: 25px;
+}
+
+.ai-right .name {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.ai-right .ai-info {
+    color: grey;
+    font-size: 0.85rem;
+}
+
+.ai-right .date {
+    color: grey;
+    font-size: 0.85rem;
+}
+
+.description {
+    font-size: 0.95rem;
+    padding-bottom: 0.4rem;
+}
+
+.article-photo img{
+    width: 100%;
+}
+
+.lcrs {
+    display: flex;
+    justify-content: space-around;
+    color: grey;
+    margin-top: 0.2rem;
+}
+
+.lcrs-button {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    padding: 0.6rem 0.9rem;
+}
+
+.lcrs-button:hover {
+    cursor: pointer;
+    background-color: #e3e2e2;
+    border-radius: 5px;
+}
+
+.reactions-comments {
+    display: flex;
+    font-size: 0.88rem;
+    color: grey;   
+    padding: 0.4rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+}
+
+.rc-left {
+    display: flex;
+}
+
+.rc-left>:nth-child(2) {
+    position: relative;
+    left: -5px;
+}
+
+.rc-left>:nth-child(3) {
+    position: relative;
+    left: -11px;
+}
+
+.rc-left>:nth-child(4) {
+    position: relative;
+    left: -4px;
+}
+
+@media screen and (max-width: 490px) {
+    .lcrs p {
+        font-size: 0.9rem;
+    }
+  }
